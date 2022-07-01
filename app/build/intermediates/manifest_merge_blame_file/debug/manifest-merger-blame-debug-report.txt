@@ -1,0 +1,382 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mousagroup.hyperjump"
+4    android:versionCode="3"
+5    android:versionName="3.0.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/AndroidManifest.xml
+10
+11    <supports-screens
+11-->/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/AndroidManifest.xml:38:5-41:39
+12        android:anyDensity="true"
+12-->/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/AndroidManifest.xml:40:9-34
+13        android:largeScreens="true"
+13-->/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/AndroidManifest.xml:38:23-50
+14        android:normalScreens="true"
+14-->/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/AndroidManifest.xml:41:9-37
+15        android:smallScreens="true" />
+15-->/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/AndroidManifest.xml:39:9-36
+16
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/AndroidManifest.xml:43:5-67
+17-->/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/AndroidManifest.xml:43:22-64
+18    <uses-permission android:name="com.android.vending.BILLING" />
+18-->/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/AndroidManifest.xml:44:5-67
+18-->/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/AndroidManifest.xml:44:22-64
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/AndroidManifest.xml:45:5-79
+19-->/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/AndroidManifest.xml:45:22-76
+20    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+20-->/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/AndroidManifest.xml:46:5-75
+20-->/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/AndroidManifest.xml:46:22-73
+21    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+21-->/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/AndroidManifest.xml:47:5-81
+21-->/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/AndroidManifest.xml:47:22-78
+22    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+22-->/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/AndroidManifest.xml:48:5-81
+22-->/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/AndroidManifest.xml:48:22-78
+23
+24    <!-- Android package visibility setting -->
+25    <queries>
+25-->[com.google.android.gms:play-services-ads-lite:20.2.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/4a0d321d699b4dbd994f267aa7024993/jetified-play-services-ads-lite-20.2.0/AndroidManifest.xml:27:5-43:15
+26
+27        <!-- For browser content -->
+28        <intent>
+28-->[com.google.android.gms:play-services-ads-lite:20.2.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/4a0d321d699b4dbd994f267aa7024993/jetified-play-services-ads-lite-20.2.0/AndroidManifest.xml:30:9-36:18
+29            <action android:name="android.intent.action.VIEW" />
+29-->[com.google.android.gms:play-services-ads-lite:20.2.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/4a0d321d699b4dbd994f267aa7024993/jetified-play-services-ads-lite-20.2.0/AndroidManifest.xml:31:13-65
+29-->[com.google.android.gms:play-services-ads-lite:20.2.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/4a0d321d699b4dbd994f267aa7024993/jetified-play-services-ads-lite-20.2.0/AndroidManifest.xml:31:21-62
+30
+31            <category android:name="android.intent.category.BROWSABLE" />
+31-->[com.google.android.gms:play-services-ads-lite:20.2.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/4a0d321d699b4dbd994f267aa7024993/jetified-play-services-ads-lite-20.2.0/AndroidManifest.xml:33:13-74
+31-->[com.google.android.gms:play-services-ads-lite:20.2.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/4a0d321d699b4dbd994f267aa7024993/jetified-play-services-ads-lite-20.2.0/AndroidManifest.xml:33:23-71
+32
+33            <data android:scheme="https" />
+33-->[com.google.android.gms:play-services-ads-lite:20.2.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/4a0d321d699b4dbd994f267aa7024993/jetified-play-services-ads-lite-20.2.0/AndroidManifest.xml:35:13-44
+33-->[com.google.android.gms:play-services-ads-lite:20.2.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/4a0d321d699b4dbd994f267aa7024993/jetified-play-services-ads-lite-20.2.0/AndroidManifest.xml:35:19-41
+34        </intent>
+35        <!-- End of browser content -->
+36        <!-- For CustomTabsService -->
+37        <intent>
+37-->[com.google.android.gms:play-services-ads-lite:20.2.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/4a0d321d699b4dbd994f267aa7024993/jetified-play-services-ads-lite-20.2.0/AndroidManifest.xml:39:9-41:18
+38            <action android:name="android.support.customtabs.action.CustomTabsService" />
+38-->[com.google.android.gms:play-services-ads-lite:20.2.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/4a0d321d699b4dbd994f267aa7024993/jetified-play-services-ads-lite-20.2.0/AndroidManifest.xml:40:13-90
+38-->[com.google.android.gms:play-services-ads-lite:20.2.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/4a0d321d699b4dbd994f267aa7024993/jetified-play-services-ads-lite-20.2.0/AndroidManifest.xml:40:21-87
+39        </intent>
+40        <!-- End of CustomTabsService -->
+41    </queries>
+42
+43    <uses-permission android:name="android.permission.WAKE_LOCK" />
+43-->[com.google.android.gms:play-services-measurement-sdk-api:18.0.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/dffd22c5ed94467ccca2d79862790634/jetified-play-services-measurement-sdk-api-18.0.0/AndroidManifest.xml:25:5-68
+43-->[com.google.android.gms:play-services-measurement-sdk-api:18.0.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/dffd22c5ed94467ccca2d79862790634/jetified-play-services-measurement-sdk-api-18.0.0/AndroidManifest.xml:25:22-65
+44    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+44-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:27:5-81
+44-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:27:22-78
+45
+46    <application
+46-->/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/AndroidManifest.xml:7:5-36:19
+47        android:name="androidx.multidex.MultiDexApplication"
+47-->/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/AndroidManifest.xml:10:9-61
+48        android:allowBackup="true"
+48-->/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/AndroidManifest.xml:9:9-35
+49        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+49-->[androidx.core:core:1.2.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/d97de8d4da2daf41cae9a34bc8c4933b/core-1.2.0/AndroidManifest.xml:24:18-86
+50        android:debuggable="true"
+51        android:icon="@drawable/icon"
+51-->/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/AndroidManifest.xml:8:9-38
+52        android:label="@string/app_name"
+52-->/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/AndroidManifest.xml:7:18-50
+53        android:testOnly="true" >
+54        <meta-data
+54-->/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/AndroidManifest.xml:12:9-13:69
+55            android:name="com.google.android.gms.version"
+55-->/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/AndroidManifest.xml:12:20-65
+56            android:value="@integer/google_play_services_version" />
+56-->/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/AndroidManifest.xml:13:13-66
+57        <meta-data
+57-->/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/AndroidManifest.xml:14:9-15:46
+58            android:name="com.google.android.gms.games.APP_ID"
+58-->/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/AndroidManifest.xml:14:20-70
+59            android:value="@string/app_id" />
+59-->/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/AndroidManifest.xml:15:13-43
+60
+61        <activity
+61-->/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/AndroidManifest.xml:17:9-26:20
+62            android:name="com.mousagroup.hyperjump.PTPlayer"
+62-->/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/AndroidManifest.xml:17:19-43
+63            android:configChanges="orientation"
+63-->/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/AndroidManifest.xml:21:13-48
+64            android:label="@string/app_name"
+64-->/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/AndroidManifest.xml:18:13-45
+65            android:screenOrientation="portrait"
+65-->/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/AndroidManifest.xml:19:13-49
+66            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+66-->/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/AndroidManifest.xml:20:13-71
+67            <intent-filter>
+67-->/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/AndroidManifest.xml:22:13-25:29
+68                <action android:name="android.intent.action.MAIN" />
+68-->/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/AndroidManifest.xml:23:17-69
+68-->/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/AndroidManifest.xml:23:25-66
+69
+70                <category android:name="android.intent.category.LAUNCHER" />
+70-->/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/AndroidManifest.xml:24:17-77
+70-->/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/AndroidManifest.xml:24:27-74
+71            </intent-filter>
+72        </activity>
+73
+74        <meta-data
+74-->/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/AndroidManifest.xml:29:9-30:51
+75            android:name="com.google.android.gms.ads.APPLICATION_ID"
+75-->/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/AndroidManifest.xml:29:20-76
+76            android:value="@string/admob_app_id" />
+76-->/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/AndroidManifest.xml:30:13-49
+77
+78        <activity
+78-->/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/AndroidManifest.xml:32:9-34:64
+79            android:name="com.google.android.gms.ads.AdActivity"
+79-->/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/AndroidManifest.xml:32:19-71
+80            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+80-->/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/AndroidManifest.xml:33:13-122
+81            android:exported="false"
+81-->[com.google.android.gms:play-services-ads-lite:20.2.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/4a0d321d699b4dbd994f267aa7024993/jetified-play-services-ads-lite-20.2.0/AndroidManifest.xml:51:13-37
+82            android:theme="@android:style/Theme.Translucent" />
+82-->/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/AndroidManifest.xml:34:13-61
+83
+84        <uses-library
+84-->/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/AndroidManifest.xml:35:9-87
+85            android:name="org.apache.http.legacy"
+85-->/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/AndroidManifest.xml:35:23-60
+86            android:required="false" />
+86-->/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/AndroidManifest.xml:35:61-85
+87
+88        <activity
+88-->[com.google.android.gms:play-services-auth:19.2.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/62bbc8988c68d0dbf9378960fe56753f/jetified-play-services-auth-19.2.0/AndroidManifest.xml:23:9-27:75
+89            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+89-->[com.google.android.gms:play-services-auth:19.2.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/62bbc8988c68d0dbf9378960fe56753f/jetified-play-services-auth-19.2.0/AndroidManifest.xml:24:13-93
+90            android:excludeFromRecents="true"
+90-->[com.google.android.gms:play-services-auth:19.2.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/62bbc8988c68d0dbf9378960fe56753f/jetified-play-services-auth-19.2.0/AndroidManifest.xml:25:13-46
+91            android:exported="false"
+91-->[com.google.android.gms:play-services-auth:19.2.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/62bbc8988c68d0dbf9378960fe56753f/jetified-play-services-auth-19.2.0/AndroidManifest.xml:26:13-37
+92            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+92-->[com.google.android.gms:play-services-auth:19.2.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/62bbc8988c68d0dbf9378960fe56753f/jetified-play-services-auth-19.2.0/AndroidManifest.xml:27:13-72
+93        <!--
+94            Service handling Google Sign-In user revocation. For apps that do not integrate with
+95            Google Sign-In, this service will never be started.
+96        -->
+97        <service
+97-->[com.google.android.gms:play-services-auth:19.2.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/62bbc8988c68d0dbf9378960fe56753f/jetified-play-services-auth-19.2.0/AndroidManifest.xml:33:9-37:51
+98            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+98-->[com.google.android.gms:play-services-auth:19.2.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/62bbc8988c68d0dbf9378960fe56753f/jetified-play-services-auth-19.2.0/AndroidManifest.xml:34:13-89
+99            android:exported="true"
+99-->[com.google.android.gms:play-services-auth:19.2.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/62bbc8988c68d0dbf9378960fe56753f/jetified-play-services-auth-19.2.0/AndroidManifest.xml:35:13-36
+100            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+100-->[com.google.android.gms:play-services-auth:19.2.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/62bbc8988c68d0dbf9378960fe56753f/jetified-play-services-auth-19.2.0/AndroidManifest.xml:36:13-107
+101            android:visibleToInstantApps="true" />
+101-->[com.google.android.gms:play-services-auth:19.2.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/62bbc8988c68d0dbf9378960fe56753f/jetified-play-services-auth-19.2.0/AndroidManifest.xml:37:13-48
+102
+103        <provider
+103-->[com.google.android.gms:play-services-ads-lite:20.2.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/4a0d321d699b4dbd994f267aa7024993/jetified-play-services-ads-lite-20.2.0/AndroidManifest.xml:54:9-58:39
+104            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+104-->[com.google.android.gms:play-services-ads-lite:20.2.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/4a0d321d699b4dbd994f267aa7024993/jetified-play-services-ads-lite-20.2.0/AndroidManifest.xml:55:13-76
+105            android:authorities="com.mousagroup.hyperjump.mobileadsinitprovider"
+105-->[com.google.android.gms:play-services-ads-lite:20.2.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/4a0d321d699b4dbd994f267aa7024993/jetified-play-services-ads-lite-20.2.0/AndroidManifest.xml:56:13-73
+106            android:exported="false"
+106-->[com.google.android.gms:play-services-ads-lite:20.2.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/4a0d321d699b4dbd994f267aa7024993/jetified-play-services-ads-lite-20.2.0/AndroidManifest.xml:57:13-37
+107            android:initOrder="100" />
+107-->[com.google.android.gms:play-services-ads-lite:20.2.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/4a0d321d699b4dbd994f267aa7024993/jetified-play-services-ads-lite-20.2.0/AndroidManifest.xml:58:13-36
+108
+109        <service
+109-->[com.google.android.gms:play-services-ads-lite:20.2.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/4a0d321d699b4dbd994f267aa7024993/jetified-play-services-ads-lite-20.2.0/AndroidManifest.xml:60:9-63:40
+110            android:name="com.google.android.gms.ads.AdService"
+110-->[com.google.android.gms:play-services-ads-lite:20.2.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/4a0d321d699b4dbd994f267aa7024993/jetified-play-services-ads-lite-20.2.0/AndroidManifest.xml:61:13-64
+111            android:enabled="true"
+111-->[com.google.android.gms:play-services-ads-lite:20.2.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/4a0d321d699b4dbd994f267aa7024993/jetified-play-services-ads-lite-20.2.0/AndroidManifest.xml:62:13-35
+112            android:exported="false" />
+112-->[com.google.android.gms:play-services-ads-lite:20.2.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/4a0d321d699b4dbd994f267aa7024993/jetified-play-services-ads-lite-20.2.0/AndroidManifest.xml:63:13-37
+113
+114        <activity
+114-->[com.google.android.gms:play-services-base:17.5.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/d5d6ecd679300559b5138853ca80de9d/jetified-play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
+115            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+115-->[com.google.android.gms:play-services-base:17.5.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/d5d6ecd679300559b5138853ca80de9d/jetified-play-services-base-17.5.0/AndroidManifest.xml:24:13-79
+116            android:exported="false"
+116-->[com.google.android.gms:play-services-base:17.5.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/d5d6ecd679300559b5138853ca80de9d/jetified-play-services-base-17.5.0/AndroidManifest.xml:25:13-37
+117            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+117-->[com.google.android.gms:play-services-base:17.5.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/d5d6ecd679300559b5138853ca80de9d/jetified-play-services-base-17.5.0/AndroidManifest.xml:26:13-72
+118
+119        <provider
+119-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:30:9-36:35
+120            android:name="androidx.work.impl.WorkManagerInitializer"
+120-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:31:13-69
+121            android:authorities="com.mousagroup.hyperjump.workmanager-init"
+121-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:32:13-68
+122            android:directBootAware="false"
+122-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:33:13-44
+123            android:exported="false"
+123-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:34:13-37
+124            android:multiprocess="true" />
+124-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:35:13-40
+125
+126        <service
+126-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:38:9-43:35
+127            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+127-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:39:13-88
+128            android:directBootAware="false"
+128-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:40:13-44
+129            android:enabled="@bool/enable_system_alarm_service_default"
+129-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:41:13-72
+130            android:exported="false" />
+130-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:42:13-37
+131        <service
+131-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:44:9-50:35
+132            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+132-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:45:13-84
+133            android:directBootAware="false"
+133-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:46:13-44
+134            android:enabled="@bool/enable_system_job_service_default"
+134-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:47:13-70
+135            android:exported="true"
+135-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:48:13-36
+136            android:permission="android.permission.BIND_JOB_SERVICE" />
+136-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:49:13-69
+137
+138        <receiver
+138-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:52:9-57:35
+139            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+139-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:53:13-88
+140            android:directBootAware="false"
+140-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:54:13-44
+141            android:enabled="true"
+141-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:55:13-35
+142            android:exported="false" />
+142-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:56:13-37
+143        <receiver
+143-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:58:9-68:20
+144            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+144-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:59:13-106
+145            android:directBootAware="false"
+145-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:60:13-44
+146            android:enabled="false"
+146-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:61:13-36
+147            android:exported="false" >
+147-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:62:13-37
+148            <intent-filter>
+148-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:64:13-67:29
+149                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+149-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:65:17-87
+149-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:65:25-84
+150                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+150-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:66:17-90
+150-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:66:25-87
+151            </intent-filter>
+152        </receiver>
+153        <receiver
+153-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:69:9-79:20
+154            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+154-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:70:13-104
+155            android:directBootAware="false"
+155-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:71:13-44
+156            android:enabled="false"
+156-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:72:13-36
+157            android:exported="false" >
+157-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:73:13-37
+158            <intent-filter>
+158-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:75:13-78:29
+159                <action android:name="android.intent.action.BATTERY_OKAY" />
+159-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:76:17-77
+159-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:76:25-74
+160                <action android:name="android.intent.action.BATTERY_LOW" />
+160-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:77:17-76
+160-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:77:25-73
+161            </intent-filter>
+162        </receiver>
+163        <receiver
+163-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:80:9-90:20
+164            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+164-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:81:13-104
+165            android:directBootAware="false"
+165-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:82:13-44
+166            android:enabled="false"
+166-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:83:13-36
+167            android:exported="false" >
+167-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:84:13-37
+168            <intent-filter>
+168-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:86:13-89:29
+169                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+169-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:87:17-83
+169-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:87:25-80
+170                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+170-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:88:17-82
+170-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:88:25-79
+171            </intent-filter>
+172        </receiver>
+173        <receiver
+173-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:91:9-100:20
+174            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+174-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:92:13-103
+175            android:directBootAware="false"
+175-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:93:13-44
+176            android:enabled="false"
+176-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:94:13-36
+177            android:exported="false" >
+177-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:95:13-37
+178            <intent-filter>
+178-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:97:13-99:29
+179                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+179-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:98:17-79
+179-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:98:25-76
+180            </intent-filter>
+181        </receiver>
+182        <receiver
+182-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:101:9-112:20
+183            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+183-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:102:13-88
+184            android:directBootAware="false"
+184-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:103:13-44
+185            android:enabled="false"
+185-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:104:13-36
+186            android:exported="false" >
+186-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:105:13-37
+187            <intent-filter>
+187-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:107:13-111:29
+188                <action android:name="android.intent.action.BOOT_COMPLETED" />
+188-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:108:17-79
+188-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:108:25-76
+189                <action android:name="android.intent.action.TIME_SET" />
+189-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:109:17-73
+189-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:109:25-70
+190                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+190-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:110:17-81
+190-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:110:25-78
+191            </intent-filter>
+192        </receiver>
+193        <receiver
+193-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:113:9-122:20
+194            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+194-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:114:13-99
+195            android:directBootAware="false"
+195-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:115:13-44
+196            android:enabled="@bool/enable_system_alarm_service_default"
+196-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:116:13-72
+197            android:exported="false" >
+197-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:117:13-37
+198            <intent-filter>
+198-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:119:13-121:29
+199                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+199-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:120:17-98
+199-->[androidx.work:work-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/7db09beb49de446b32e4290fd1b4f359/work-runtime-2.1.0/AndroidManifest.xml:120:25-95
+200            </intent-filter>
+201        </receiver>
+202
+203        <service
+203-->[androidx.room:room-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/c66e14520f3213bbeaae9d4f30f92a2e/room-runtime-2.1.0/AndroidManifest.xml:25:9-27:40
+204            android:name="androidx.room.MultiInstanceInvalidationService"
+204-->[androidx.room:room-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/c66e14520f3213bbeaae9d4f30f92a2e/room-runtime-2.1.0/AndroidManifest.xml:26:13-74
+205            android:exported="false" />
+205-->[androidx.room:room-runtime:2.1.0] /Users/naveen/.gradle/caches/transforms-2/files-2.1/c66e14520f3213bbeaae9d4f30f92a2e/room-runtime-2.1.0/AndroidManifest.xml:27:13-37
+206    </application>
+207
+208</manifest>

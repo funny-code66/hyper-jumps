@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hyper Jump</string>
+    <string name="app_id">109530677255</string>
+
+    <!-- Replace your Admob Id's -->
+    <string name="admob_app_id">ca-app-pub-1699031840044760~9853190432</string>
+    <string name="admob_banner_id">ca-app-pub-1699031840044760/2225433118</string>
+    <string name="admob_interstitial_id">ca-app-pub-1699031840044760/6285125298</string>
+    <string name="admob_reward_video_id">ca-app-pub-1699031840044760/4436663486</string>
+
+    <string name="more_games_url">https://play.google.com/store/apps/dev?id=8354093377402790433</string>
+    <string name="share_message">OMG been playing #hyperjump for hours!, I scored </string>
+</resources>

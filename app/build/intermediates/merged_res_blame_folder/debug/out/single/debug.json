@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi_icon.png.flat",
+        "source": "/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/res/drawable-xxhdpi/icon.png"
+    },
+    {
+        "merged": "/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_icon.png.flat",
+        "source": "/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/res/drawable-xxxhdpi/icon.png"
+    },
+    {
+        "merged": "/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/build/intermediates/res/merged/debug/drawable_icon.png.flat",
+        "source": "/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/res/drawable/icon.png"
+    },
+    {
+        "merged": "/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/build/intermediates/res/merged/debug/drawable-hdpi_icon.png.flat",
+        "source": "/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/res/drawable-hdpi/icon.png"
+    },
+    {
+        "merged": "/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/build/intermediates/res/merged/debug/drawable_spacer.png.flat",
+        "source": "/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/res/drawable/spacer.png"
+    },
+    {
+        "merged": "/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/build/intermediates/res/merged/debug/drawable-xhdpi_icon.png.flat",
+        "source": "/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/res/drawable-xhdpi/icon.png"
+    },
+    {
+        "merged": "/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/build/intermediates/res/merged/debug/layout_main.xml.flat",
+        "source": "/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/res/layout/main.xml"
+    },
+    {
+        "merged": "/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/build/intermediates/res/merged/debug/drawable-mdpi_icon.png.flat",
+        "source": "/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/res/drawable-mdpi/icon.png"
+    },
+    {
+        "merged": "/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/build/intermediates/res/merged/debug/drawable-ldpi_icon.png.flat",
+        "source": "/Users/naveen/Desktop/Mousa-Reskin/hyper-jump/hyperjump-google-play-store/android_project/hyperjump3.0/android/app/src/main/res/drawable-ldpi/icon.png"
+    }
+]
